@@ -133,6 +133,7 @@ button {
   font-size: 40px;
   font-weight: 600;
   padding-bottom: 18px;
+  color: #000;
 }
 .heading-des {
   max-width: 580px;
@@ -684,6 +685,8 @@ ul.check-list li p {
 .team-part {
   overflow: hidden;
 }
+
+
 .team-img {
   width: 156px;
   height: 156px;
@@ -701,6 +704,7 @@ ul.check-list li p {
 .member-name {
   font-size: 20px;
   padding-bottom: 5px;
+  color: #000;
 }
 .team-box ul li {
   display: inline-block;
