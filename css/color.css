@@ -21,9 +21,9 @@ a.active {color: #ec3154; }
 .form-control:-ms-input-placeholder {color: #8d56f3;}
 .form-control:-moz-placeholder {color: #8d56f3;}
 .heading-title-2 span, .sub-heading {color: #ec3154;}
-.sub-page-banner{background-color: #410ca3;}
+.sub-page-banner{background-color: #f51664;}
 .lightcrimson{background-color: #f51664;}
-.darkcrimson{background-color: #EE0055;}
+.{background-color: #EE0055;}
 .top-scroll {background: #ec3154; color: #fff;}
 .top-scroll:hover {opacity: 0.6;}
 .top-scroll a{color: #fff;}
@@ -149,7 +149,7 @@ button.close{color: #fff;}
 /*----- Roadmap Page -----*/
 .roadmap-center-line{border-color: #ec3154;}
 .roadmap-center-line:before, .roadmap-center-line:after{background: #fff;}
-.roadmap-animated{background: #5d19db;}
+.roadmap-animated{background: #ec3154;}
 .roadmap-main-content:before{border-color: #ec3154;}
 .roadmap-small-round{border-color: #fff; background: #490fb4;}
 .roadmap-small-round:before{background: #ec3154;}

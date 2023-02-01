@@ -686,6 +686,17 @@ ul.check-list li p {
   overflow: hidden;
 }
 
+.team-part li > a  {
+  color: #ec3154;
+ text-decoration: dotted;
+}
+
+.team-part li > a:hover  {
+  color: #ef6c84;
+ text-decoration: dotted;
+}
+
+
 
 .team-img {
   width: 156px;
@@ -1303,7 +1314,6 @@ _______________________________________________________*/
 .sub-page-banner {
   padding-top: 180px;
   padding-bottom: 90px;
-  background: url(../images/sub-page-banner.svg);
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
@@ -1311,6 +1321,7 @@ _______________________________________________________*/
   font-size: 50px;
   font-weight: 600;
   padding-bottom: 10px;
+  color: #fff;
 }
 .sub-page-banner ul li {
   font-size: 16px;
@@ -1319,6 +1330,7 @@ _______________________________________________________*/
   font-weight: 700;
   text-transform: uppercase;
   padding: 0px 30px;
+  color: white;
 }
 .sub-page-banner ul li:before {
   content: '';
@@ -1772,6 +1784,10 @@ _______________________________________________________*/
   font-size: 18px;
   font-family: 'Lato', sans-serif;
   padding-bottom: 8px;
+  color: white;
+}
+.roadmap-content-box p {
+  color: white;
 }
 .roadmap-content-box:nth-child(2n + 0) .roadmap-main-content {
   margin-right: 105px;
