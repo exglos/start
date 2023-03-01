@@ -279,7 +279,7 @@ $(function() {
 
     /* -------- Countdown Timer ------- */
     if ($(".coins-counter-loop").length > 0) {
-        var your_date = '2022-09-28 00:00:00';
+        var your_date = '2023-07-10 00:00:00';
         var second = 1000,
             minute = second * 60,
             hour = minute * 60,
