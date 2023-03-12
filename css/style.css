@@ -339,6 +339,30 @@ header {
   top: 0;
   left: 0;
   z-index: 999;
+  margin-bottom: 6.25rem;
+}
+
+/* Toggle colors for the header section based on the scroll height of the viewport*/
+
+header .toggle__color {
+  color: #EE0055;
+}
+
+header .menu__toggle ul a {
+  color: #EE0055
+}
+
+.menu__untoggle {
+  background: #EE0055;
+  color: #FFF;
+}
+
+.menu__untoggle ul a {
+  color: #FFF
+}
+
+header .menu__toggle__fill  {
+  fill: #EE0055
 }
 header .container {
   position: relative;

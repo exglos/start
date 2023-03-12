@@ -30,7 +30,7 @@ a.active {color: #ec3154; }
 
 /*----- Menu -----*/
 .menu ul li a:before{background: #ec3154;}
-header.fixed{background: #EE0055}
+header.fixed{background: #EE0055; color: #fff}
 .opener:before, .opener:after{background: #fff;}
 .menu-toggle span, .menu-toggle span:before, .menu-toggle span:after{background: #fff;}
 header.fixed .menu-toggle span, header.fixed .menu-toggle span:before, header.fixed .menu-toggle span:after{background: #fff;}

@@ -11,8 +11,15 @@ $(function() {
     $(window).on("scroll", function(){
         if ($(this).scrollTop() > 50) {
             $('header, .top-scroll').addClass('fixed');
+            $('header, .menu, .mega-menu').removeClass('menu__toggle');
+            $('menu, .logo, #logo-image').attr('src', 'images/logo-text.svg');
         } else {
+            $('header, .menu, .mega-menu').addClass('menu__toggle')
             $('header, .top-scroll').removeClass('fixed');
+            $('.menu, .logo, #logo-image').attr('src', 'images/logo-text-dark.svg');
+
+        
+ 
         }
     });
     /*----- Sticky Header End -----*/
